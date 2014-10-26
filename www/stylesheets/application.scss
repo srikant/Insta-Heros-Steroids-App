@@ -1,0 +1,25 @@
+body {
+	/* Background color set as workaround for Legacy Android issue:
+	https://github.com/AppGyver/steroids/issues/381 */
+	background-color: #444;
+}
+
+.content-padded {
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+	h3, h4 {
+		text-align: center;
+		margin: 0;
+		line-height: 1em;
+		padding: 10px 15px 15px 15px;
+	}
+}
+
+#thumbnails {
+	.card {
+		margin: 0;
+		padding: 0;
+	}
+}
